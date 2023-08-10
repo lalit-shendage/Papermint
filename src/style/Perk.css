@@ -1,0 +1,31 @@
+h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+.perk {
+    display: flex;
+    align-items: center;
+    margin:5rem 3rem ;
+  }
+  
+  .perk-image {
+    width: 30%;
+    height: auto;
+    margin: 0px 4rem; 
+    border-radius: 2rem;
+    min-width: 200px;
+  }
+  
+  .perk-content {
+    margin-left: 4rem;
+    flex: 1; 
+  }
+  
+  .even {
+    flex-direction: row-reverse;
+  }
+  
+  .odd {
+    flex-direction: row;
+  }
+  

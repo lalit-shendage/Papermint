@@ -1,0 +1,14 @@
+.logo{
+  height: 3rem;
+  margin: 0.5rem;
+}
+.active{
+  color: aquamarine;
+}
+.nav-link:hover {
+  color: #50ebec;
+}
+.current{
+  color: #50ebec;
+font-weight: bold;
+}

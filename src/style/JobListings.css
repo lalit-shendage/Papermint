@@ -1,0 +1,33 @@
+
+.head{
+    display: grid;
+    justify-content: center; 
+}
+.job-card {
+   
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;  
+    background-color: white;
+}
+.parent{
+gap: 5rem;
+display: flex;
+flex-wrap: wrap;
+}
+
+.listings{
+    padding: 2rem;
+}
+.job-card button {
+    padding: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  }
